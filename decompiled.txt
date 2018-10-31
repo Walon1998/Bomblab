@@ -1350,14 +1350,19 @@ uint64_t phase_4(void** rdi, void** rsi, void** rdx, void** rcx, void** r8, void
     void** rcx10;
     void** v11;
     void** v12;
-    int32_t eax13;
-    uint32_t v14;
+    
     void** v15;
     void** rdi16;
+    
+   
+    void** v20;
+  
+
+    int32_t eax13;
+    uint32_t v14;
     uint32_t v17;
     int64_t rax18;
     int32_t v19;
-    void** v20;
     uint64_t rax21;
 
     rsp8 = reinterpret_cast<void**>(reinterpret_cast<int64_t>(__zero_stack_offset()) - 24);
